@@ -7,7 +7,6 @@
 public class Taller9 {
 
     public static int levenshtein(String a, String b) {
-        int cont = 0;
         int[][] lev = new int[a.length()+1][b.length()+1];
         for(int i = 0; i < a.length()+1; ++i){
             lev[i][0] = i;
@@ -25,7 +24,6 @@ public class Taller9 {
                 }
             }
         }
-        System.out.println(lev[a.length()][b.length()]);
         return lev[a.length()][b.length()];
     }
 
