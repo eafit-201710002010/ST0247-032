@@ -24,7 +24,6 @@ public class Test {
         for (int i = 0; i < n; ++i){
             for (int j = 1; j < n; ++j){
                 if (Taller9.levenshtein(wordlist[i], wordlist[j]) != answers[i][j]){
-                    System.out.println(answers[i][j]);
                     return false;
                 }
             }
