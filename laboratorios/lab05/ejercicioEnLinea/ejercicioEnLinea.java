@@ -4,8 +4,8 @@ import java.io.*;
 /**
  * Write a description of class ejercicioEnLinea here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Mateo Florez, Isabela Muriel
+ * @version Abril 2018
  */
 public class ejercicioEnLinea
 {
